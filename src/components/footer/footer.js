@@ -1,9 +1,11 @@
 import React from 'react';
+import './footer.scss';
 
 const footer = () => {
     return (
-        <div>
-            footer
+        <div className='footer'>
+            <div>RTK App</div>
+            <div>2022, Movie, Inc. or its affiliates</div>
         </div>
     );
 };
